@@ -5,6 +5,8 @@ public class Constants {
 	public class Api
 	{
 		public static final String EXCHANGE_FROM_TO = "/currency-exchange/from/{from}/to/{to}";
+		
+		public static final String EXCHANGE_TEST = "/currency-exchange/getSystemInfo";
 	}
 
 }
